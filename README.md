@@ -1,20 +1,20 @@
 # ML Notes
 
-Machine Learning
-- definition
+## Machine Learning
+* **definition**
 
-Types of learning (training method)
-- supervised
-- unsupervised
-- semisupervised
-- reinforcement
+## Training Methods: human involvement
+### Supervised Learning
+### Unsupervised Learning
+### Semisupervised Learning
+### Reinforcement Learning
 
-Types of data input
-- batch
-- online
+## Training Methods: operational status
+### Batch Learning
+### Online Learning
 
-Types of generalization
-- instance-based
-- model-based
+## Prediction Methods
+### Instance-Based
+### Model-Based
 
-Main Challenges of Machine Learning
+## Main Challenges of Machine Learning
