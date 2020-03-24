@@ -62,10 +62,22 @@
 
 ## Main Challenges of Machine Learning
 ### Bad Data
-* **Insufficient Quantity of Training Data**: 
-* **Nonrepresentative Training Data**:
-* **Poor-Quality Data**:
+* **Insufficient Quantity of Training Data**: ML requires very large data sets to produce effective algorithms
+* **Nonrepresentative Training Data**: Training a model with nonrepresentative will result in inaccurate predictions. This can be caused by data sets that are too small (introduces sampling noise) or by a problem with the sampling method (sampling bias).
+* **Poor-Quality Data**: Data sets full of errors, outliers, and noise make the system less likely to produce accurate predictions
+* **Irrelevant Features**: Training on only relevant features is a critical part of ML. Feature engineering involves choosing only the most relevant features (feature selection) and reducing dimensionality by consolidating seperate features (feature extraction).
 ### Bad Algorithm
-* **Irrelevant Features**:
-* **Overfitting Training Data**:
-* **Underfitting Training Data**:
+* **Overfitting Training Data**: Introducing a model with too much complexity (ex: high order polynomial) will produce good results on training data but fail to generalize to new cases.
+ * regularization reduces the risk of overfitting
+* **Underfitting Training Data**: Using a model that is too simple to capture the complexity of a system will fail to produce a useful understanding of the underlying structure of the data
+
+## Testing & Validation
+* training set vs test set
+* generalization error (out of sample error): error rate on new cases
+
+## Hyperparameter Tuning & Model Selection
+* validation set (development set)
+* cross-validation
+
+## Data Mismatch
+* train-dev set
